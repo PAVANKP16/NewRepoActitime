@@ -4,14 +4,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.actitime.pageobject.LoginPage1;
+import com.actitime.pageobject.LoginPage2;
 
 public class TC_LoginPage_001 extends BaseClass {
 	
 	@Test
 	public void LoginTest()
 	{
-		LoginPage1 p = new LoginPage1(driver);
+		LoginPage2 p = new LoginPage2(driver);
 		
 		p.setUserName(username);
 		etest.info("enetered username " +username);
